@@ -23,11 +23,10 @@ export const Body = styled.div`
     font-weight: bold;
     margin: 0 6px 0;
     font-size: 22px;
-    color: #4a4a4a;
+    color: #000;
     text-transform: uppercase;
   }
   p {
-    font-weight: lighter;
     font-size: 16px;
   }
 `;
@@ -57,5 +56,9 @@ export const DirectoryItemContainer = styled.div`
     ${Body} {
       opacity: 0.9;
     }
+  }
+
+  @media screen and (max-width: 700px) {
+    width: 100%;
   }
 `;
